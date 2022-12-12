@@ -21,7 +21,7 @@ function custom_shipping_zone($states) {
 	$cities = array(
         'SN-DK0' => array(
             'city'     => 'Dakar',
-            'division' => '	Mermoz',
+            'division' => 'Mermoz',
         ),
         'SN-DK1' => array(
             'city'     => 'Dakar',
@@ -287,6 +287,10 @@ function custom_shipping_zone($states) {
             'city'     => 'Kaolack',
             'division' => 'Kaolack',
         ),
+        'SN-KL' => array(
+            'city'     => 'Kaolack',
+            'division' => 'Nioro Du Rip',
+        ),
         'SN-KE' => array(
             'city'     => 'Kédougou',
             'division' => 'Kédougou',
@@ -295,17 +299,57 @@ function custom_shipping_zone($states) {
             'city'     => 'Kolda',
             'division' => 'Kolda',
         ),
+        'SN-KD' => array(
+            'city'     => 'Kolda',
+            'division' => 'Vélingara',
+        ),
         'SN-LG' => array(
             'city'     => 'Louga',
             'division' => 'Louga',
+        ),
+        'SN-LG1' => array(
+            'city'     => 'Louga',
+            'division' => 'Dahra',
+        ),
+        'SN-LG2' => array(
+            'city'     => 'Louga',
+            'division' => 'Linguere',
+        ),
+        'SN-LG2' => array(
+            'city'     => 'Louga',
+            'division' => 'Kébémer',
         ),
         'SN-MT' => array(
             'city'     => 'Matam',
             'division' => 'Matam',
         ),
+        'SN-MT01' => array(
+            'city'     => 'Matam',
+            'division' => 'Ourossogui',
+        ),
+        'SN-MT02' => array(
+            'city'     => 'Matam',
+            'division' => 'Ranerou Ferlo',
+        ),
+        'SN-MT03' => array(
+            'city'     => 'Matam',
+            'division' => 'Kanel',
+        ),
         'SN-SL' => array(
             'city'     => 'Saint-Louis',
             'division' => 'Saint-Louis',
+        ),
+        'SN-SL01' => array(
+            'city'     => 'Saint-Louis',
+            'division' => 'Richard Toll',
+        ),
+        'SN-SL02' => array(
+            'city'     => 'Saint-Louis',
+            'division' => 'Dagana',
+        ),
+        'SN-SL03' => array(
+            'city'     => 'Saint-Louis',
+            'division' => 'Podor',
         ),
         'SN-SE' => array(
             'city'     => 'Sédhiou',
@@ -314,6 +358,22 @@ function custom_shipping_zone($states) {
         'SN-TC' => array(
             'city'     => 'Tambacounda',
             'division' => 'Tambacounda',
+        ),
+        'SN-TC01' => array(
+            'city'     => 'Tambacounda',
+            'division' => 'Kidira',
+        ),
+        'SN-TC01' => array(
+            'city'     => 'Tambacounda',
+            'division' => 'Bakel',
+        ),
+        'SN-TC02' => array(
+            'city'     => 'Tambacounda',
+            'division' => 'Goudiry',
+        ),
+        'SN-TC03' => array(
+            'city'     => 'Tambacounda',
+            'division' => 'Koumpentoum',
         ),
         'SN-TH' => array(
             'city'     => 'Thiès',
@@ -342,19 +402,11 @@ function custom_shipping_zone($states) {
         'SN-ZG' => array(
             'city'     => 'Ziguinchor',
             'division' => 'Ziguinchor',
-        )
-		/*
-		 * ,
-		'SN-ZG' => array(
+        ),
+		'SN-ZG1' => array(
             'city'     => 'Ziguinchor',
             'division' => 'Bignona',
-        ),
-		'SN-ZG' => array(
-            'city'     => 'Ziguinchor',
-            'division' => 'Sedhiou',
         )
-
-		 * */
     );
 		
      foreach ( $cities as $city => $cityValue ) {
