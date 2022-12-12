@@ -97,15 +97,15 @@ function custom_shipping_zone($states) {
         ),
         'SN-DK19' => array(
             'city'     => 'Dakar',
-            'division' => 'HLM',
+            'division' => 'HLM ',
         ),
         'SN-DK20' => array(
             'city'     => 'Dakar',
-            'division' => 'Sicap-Liberté',
+            'division' => 'Sicap-Liberté ',
         ),
         'SN-DK21' => array(
             'city'     => 'Dakar',
-            'division' => 'Dieuppeul',
+            'division' => 'Dieuppeul ',
         ),
         'SN-DK22' => array(
             'city'     => 'Dakar',
@@ -113,7 +113,7 @@ function custom_shipping_zone($states) {
         ),
         'SN-DK23' => array(
             'city'     => 'Dakar',
-            'division' => 'Grand Yoff',
+            'division' => 'Grand Yoff ',
         ),
         'SN-DK24' => array(
             'city'     => 'Dakar',
@@ -125,11 +125,11 @@ function custom_shipping_zone($states) {
         ),
         'SN-DK26' => array(
             'city'     => 'Dakar',
-            'division' => 'Zone de Captage',
+            'division' => 'Zone de Captage ',
         ),
         'SN-DK27' => array(
             'city'     => 'Dakar',
-            'division' => 'Front de Terre',
+            'division' => 'Front de Terre ',
         ),
         'SN-DK28' => array(
             'city'     => 'Dakar',
@@ -145,11 +145,11 @@ function custom_shipping_zone($states) {
         ),
         'SN-DK31' => array(
             'city'     => 'Dakar',
-            'division' => 'Keur Gorgui',
+            'division' => 'Keur Gorgui ',
         ),
         'SN-DK32' => array(
             'city'     => 'Dakar',
-            'division' => 'Djily Mbaye',
+            'division' => 'Djily Mbaye ',
         ),
         'SN-DK33' => array(
             'city'     => 'Dakar',
@@ -287,7 +287,7 @@ function custom_shipping_zone($states) {
             'city'     => 'Kaolack',
             'division' => 'Kaolack',
         ),
-        'SN-KL' => array(
+        'SN-KL01' => array(
             'city'     => 'Kaolack',
             'division' => 'Nioro Du Rip',
         ),
@@ -363,15 +363,15 @@ function custom_shipping_zone($states) {
             'city'     => 'Tambacounda',
             'division' => 'Kidira',
         ),
-        'SN-TC01' => array(
+        'SN-TC02' => array(
             'city'     => 'Tambacounda',
             'division' => 'Bakel',
         ),
-        'SN-TC02' => array(
+        'SN-TC03' => array(
             'city'     => 'Tambacounda',
             'division' => 'Goudiry',
         ),
-        'SN-TC03' => array(
+        'SN-TC04' => array(
             'city'     => 'Tambacounda',
             'division' => 'Koumpentoum',
         ),
