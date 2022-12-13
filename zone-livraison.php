@@ -4,7 +4,7 @@
  * Author: Amadou Korka Sow
  * Author URI: https://www.korkasow.com
  * Description: This plugin add layers to wp city select to help create shipping zone in Senegal for woocommerce
- * Version: 1.1.0
+ * Version: 1.1.3
  * License: GPL2 or later 
  * License URL: http://www.gnu.org/licenses/gpl-2.0.txt
  * text-domain: zone-livraison-sn
@@ -19,7 +19,7 @@ function custom_shipping_zone($states) {
     $map = array();
   	
 	$cities = array(
-        'SN-DK0' => array(
+        'SN-DK' => array(
             'city'     => 'Dakar',
             'division' => 'Mermoz',
         ),
@@ -287,7 +287,7 @@ function custom_shipping_zone($states) {
             'city'     => 'Kaolack',
             'division' => 'Kaolack',
         ),
-        'SN-KL01' => array(
+        'SN-KL1' => array(
             'city'     => 'Kaolack',
             'division' => 'Nioro Du Rip',
         ),
@@ -299,7 +299,7 @@ function custom_shipping_zone($states) {
             'city'     => 'Kolda',
             'division' => 'Kolda',
         ),
-        'SN-KD' => array(
+        'SN-KD1' => array(
             'city'     => 'Kolda',
             'division' => 'Vélingara',
         ),
@@ -315,7 +315,7 @@ function custom_shipping_zone($states) {
             'city'     => 'Louga',
             'division' => 'Linguere',
         ),
-        'SN-LG2' => array(
+        'SN-LG3' => array(
             'city'     => 'Louga',
             'division' => 'Kébémer',
         ),
@@ -323,15 +323,15 @@ function custom_shipping_zone($states) {
             'city'     => 'Matam',
             'division' => 'Matam',
         ),
-        'SN-MT01' => array(
+        'SN-MT1' => array(
             'city'     => 'Matam',
             'division' => 'Ourossogui',
         ),
-        'SN-MT02' => array(
+        'SN-MT2' => array(
             'city'     => 'Matam',
             'division' => 'Ranerou Ferlo',
         ),
-        'SN-MT03' => array(
+        'SN-MT3' => array(
             'city'     => 'Matam',
             'division' => 'Kanel',
         ),
@@ -339,15 +339,15 @@ function custom_shipping_zone($states) {
             'city'     => 'Saint-Louis',
             'division' => 'Saint-Louis',
         ),
-        'SN-SL01' => array(
+        'SN-SL1' => array(
             'city'     => 'Saint-Louis',
             'division' => 'Richard Toll',
         ),
-        'SN-SL02' => array(
+        'SN-SL2' => array(
             'city'     => 'Saint-Louis',
             'division' => 'Dagana',
         ),
-        'SN-SL03' => array(
+        'SN-SL3' => array(
             'city'     => 'Saint-Louis',
             'division' => 'Podor',
         ),
@@ -359,19 +359,19 @@ function custom_shipping_zone($states) {
             'city'     => 'Tambacounda',
             'division' => 'Tambacounda',
         ),
-        'SN-TC01' => array(
+        'SN-TC1' => array(
             'city'     => 'Tambacounda',
             'division' => 'Kidira',
         ),
-        'SN-TC02' => array(
+        'SN-TC2' => array(
             'city'     => 'Tambacounda',
             'division' => 'Bakel',
         ),
-        'SN-TC03' => array(
+        'SN-TC3' => array(
             'city'     => 'Tambacounda',
             'division' => 'Goudiry',
         ),
-        'SN-TC04' => array(
+        'SN-TC4' => array(
             'city'     => 'Tambacounda',
             'division' => 'Koumpentoum',
         ),
